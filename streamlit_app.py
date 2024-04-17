@@ -1,8 +1,9 @@
 import streamlit as st
 
 ## Load Model
+pip install torch
 from PIL import Image
-import pytorch as torch
+import torch
 import torch.nn.functional as F
 from facenet_pytorch import MTCNN, InceptionResnetV1
 import webbrowser 
