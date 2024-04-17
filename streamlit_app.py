@@ -1,7 +1,6 @@
 import streamlit as st
 
 ## Load Model
-pip install torch
 from PIL import Image
 import torch
 import torch.nn.functional as F
