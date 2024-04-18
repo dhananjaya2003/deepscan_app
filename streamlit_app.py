@@ -106,7 +106,7 @@ def contact():
 
     if col3.button("🌐 GitHub"):
         github_link = "https://github.com/dhananjaya2003/Deepfake_detection"
-        webbrowser.open_new(github_link)
+        st.info(github_link)
 
 
 
