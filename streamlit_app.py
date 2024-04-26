@@ -72,7 +72,7 @@ def result(pred):
                 st.success(f"**{pred}**")  # Display "Real" prediction in green color
     else:
                 st.error(f"**{pred}**")
-    st.info("Note: Our deepfake detector is under development (~62% accuracy). We're aiming for 80%+ soon! For now, results may be unreliable. Double-check suspicious images using fact-checkers or reverse image search. Thanks for your patience!")
+    
 
 def contact():
     st.markdown(
